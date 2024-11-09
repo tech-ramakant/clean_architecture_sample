@@ -1,5 +1,5 @@
-import 'coffee.dart';
-import 'coffee_repo.dart';
+import '../entities/coffee.dart';
+import '../../data/repository/coffee_repo.dart';
 
 class GetCoffeeTypes {
   final CoffeeRepository repository;

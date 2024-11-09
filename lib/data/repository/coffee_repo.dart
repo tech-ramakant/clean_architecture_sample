@@ -1,4 +1,4 @@
-import 'coffee.dart';
+import '../../domain/entities/coffee.dart';
 
 abstract class CoffeeRepository {
   Future<List<Coffee>> fetchCoffeeTypes();

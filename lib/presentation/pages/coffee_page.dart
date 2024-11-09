@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'coffee.dart';
-import 'get_coffee_types.dart';
+import '../../domain/entities/coffee.dart';
+import '../../domain/usecases/get_coffee_types.dart';
 
 class CoffeePage extends StatelessWidget {
   final GetCoffeeTypes getCoffeeTypes;

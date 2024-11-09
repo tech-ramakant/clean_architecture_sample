@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'coffee_page.dart';
-import 'coffee_repo.dart';
-import 'get_coffee_types.dart';
+import '../presentation/pages/coffee_page.dart';
+import '../data/repository/coffee_repo.dart';
+import '../domain/usecases/get_coffee_types.dart';
 
 void main() {
   final repository = LocalCoffeeRepository();
@@ -16,6 +16,4 @@ void main() {
     ),
     home: CoffeePage(getCoffeeTypes),
   ));
-
 }
-
