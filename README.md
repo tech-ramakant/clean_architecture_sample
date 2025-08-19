@@ -1,6 +1,6 @@
 # clean_architecture_sample
 
-Hello there, fellow Flutter adventurers! 👋
+Hello there, fellow Flutter adventurers!
 
 This repository contains the source code for the tutorial **[Clean Architecture in Flutter: Keeping Your Code Squeaky Clean!](https://medium.com/@tech.ramakant/clean-architecture-in-flutter-keeping-your-code-squeaky-clean-c77aa6241d96)** published on Medium. This code demonstrates how to apply Clean Architecture principles in Flutter, making your app structure more organized, testable, and scalable.
 
